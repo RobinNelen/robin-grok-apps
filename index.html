@@ -4,14 +4,13 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Robin Nelen — apps met Grok</title>
-  <meta name="description" content="Overzicht van websites, portalen, games en Grok-bots gebouwd met Grok." />
+  <meta name="description" content="Eén overzicht van websites, portalen, games en Grok-bots gebouwd met Grok." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <style>
     :root {
       --bg: #0b1220;
-      --bg-2: #121b2e;
       --card: #162033;
       --line: #2a3a58;
       --text: #e8eef8;
@@ -69,7 +68,6 @@
       <h1>Alle apps in één overzicht</h1>
       <p class="lead">Websites, portalen, een game en publieke Grok-bots. Interne werk-bots (mail, tickets, agenda) staan er bewust niet bij.</p>
     </header>
-
     <div class="filters" id="filters">
       <button class="on" data-f="all">Alles</button>
       <button data-f="web">Web</button>
@@ -78,36 +76,28 @@
       <button data-f="bot">Bots</button>
       <button data-f="research">Research</button>
     </div>
-
     <section class="grid" id="grid">
       <article data-cat="web">
         <div class="meta"><span class="tag">Web</span><span class="status">live</span></div>
         <h2>Dutch Drone Centre Aviolanda</h2>
         <p>Publieke site van het test- en demonstratiecentrum naast Vliegbasis Woensdrecht: faciliteiten, TED-vluchten, training, Hive 3D lab en projecten.</p>
-        <div class="links">
-          <a href="https://lucent-madeleine-55a656.netlify.app/" target="_blank" rel="noopener">Open site</a>
-        </div>
+        <div class="links"><a href="https://lucent-madeleine-55a656.netlify.app/" target="_blank" rel="noopener">Open site</a></div>
       </article>
-
       <article data-cat="portal">
         <div class="meta"><span class="tag">Portaal</span><span class="status demo">demo</span></div>
         <h2>DDC Aanvraagportaal</h2>
-        <p>Demo aanvraagportaal dronevluchten V0.1 (fictieve data / OCC-Excel-stroom). Webshop uAvionix onaangeraakt.</p>
+        <p>Demo aanvraagportaal dronevluchten V0.1 (fictieve data / OCC-Excel-stroom). Webshop uAvionix onaangeraakt. Wachtwoord staat op de demo-pagina.</p>
         <div class="links">
           <a href="https://tranquil-bienenstitch-395eee.netlify.app/" target="_blank" rel="noopener">Netlify demo</a>
           <a class="ghost" href="https://robinnelen.github.io/ddc-aanvraagportaal-demo/" target="_blank" rel="noopener">GitHub Pages</a>
         </div>
       </article>
-
       <article data-cat="web">
         <div class="meta"><span class="tag">Web</span><span class="status">live</span></div>
         <h2>Winterschema Tennis 2026</h2>
         <p>Uitslagen invoeren zonder login, slot co-occurrence, recente matches en klassement voor de dinsdag-baanhuur.</p>
-        <div class="links">
-          <a href="https://winterschema-tennis-2026.netlify.app/" target="_blank" rel="noopener">Open app</a>
-        </div>
+        <div class="links"><a href="https://winterschema-tennis-2026.netlify.app/" target="_blank" rel="noopener">Open app</a></div>
       </article>
-
       <article data-cat="game">
         <div class="meta"><span class="tag">Game</span><span class="status private">team login</span></div>
         <h2>Aphelion</h2>
@@ -117,70 +107,54 @@
           <a class="ghost" href="https://github.com/RobinNelen/aphelion-ios" target="_blank" rel="noopener">GitHub</a>
         </div>
       </article>
-
       <article data-cat="web">
         <div class="meta"><span class="tag">Web</span><span class="status demo">preview</span></div>
         <h2>DDC site V0.536 preview</h2>
         <p>Publieke preview-repo van de Dutch Drone Centre site. Geen OCC-Excel. Productie-variant staat privé.</p>
-        <div class="links">
-          <a class="ghost" href="https://github.com/RobinNelen/dutch-drone-centre-preview" target="_blank" rel="noopener">GitHub</a>
-        </div>
+        <div class="links"><a class="ghost" href="https://github.com/RobinNelen/dutch-drone-centre-preview" target="_blank" rel="noopener">GitHub</a></div>
       </article>
-
       <article data-cat="research">
         <div class="meta"><span class="tag">Research</span><span class="status private">privé</span></div>
         <h2>FiatLux Speos Fall 2025</h2>
         <p>Speos run card + geometry pack voor de witte 8-gore dish (16 We-campagne). Geen Appendix A.</p>
-        <div class="links">
-          <a class="ghost" href="https://github.com/RobinNelen/fiatlux-speos-fall2025" target="_blank" rel="noopener">GitHub</a>
-        </div>
+        <div class="links"><a class="ghost" href="https://github.com/RobinNelen/fiatlux-speos-fall2025" target="_blank" rel="noopener">GitHub</a></div>
       </article>
-
       <article data-cat="bot">
         <div class="meta"><span class="tag">Bot</span><span class="status">publiek</span></div>
         <h2>Digital Twin Report</h2>
         <p>Technische note-teammate. Twee tevreden rapporten over aparte onderwerpen gratis; daarna €5 per rapport via PayPal-bewijs.</p>
-        <div class="links">
-          <a href="https://x.ai/bot/KDEfwD3MCBRDpLqqwSrvP" target="_blank" rel="noopener">Open bot</a>
-        </div>
+        <div class="links"><a href="https://x.ai/bot/KDEfwD3MCBRDpLqqwSrvP" target="_blank" rel="noopener">Open bot</a></div>
       </article>
-
       <article data-cat="bot">
         <div class="meta"><span class="tag">Bot</span><span class="status">publiek</span></div>
         <h2>Structured Lab Report</h2>
         <p>Veld- en labcampagnes → meerpagina Engels TRL-testrapport. Feiten only. Zelfde free-quota + hard gate als Digital Twin.</p>
-        <div class="links">
-          <a class="ghost" href="https://x.ai/bot/marketplace" target="_blank" rel="noopener">Marketplace</a>
-        </div>
+        <div class="links"><a class="ghost" href="https://x.ai/bot/marketplace" target="_blank" rel="noopener">Marketplace</a></div>
       </article>
-
       <article data-cat="bot">
         <div class="meta"><span class="tag">Bot</span><span class="status">product</span></div>
         <h2>Agenda Meeting Notes</h2>
         <p>Plaud-transcript → rode notities onder bestaande Word-agendapunten. Layout blijft. Eigen Plaud-account nodig.</p>
       </article>
-
       <article data-cat="bot research">
         <div class="meta"><span class="tag">Bot</span><span class="status">product</span></div>
         <h2>ANSYS Speos Solar Research</h2>
         <p>Speos / SpaceClaim / Workbench teammate voor zonneconcentratoren. Watts alleen uit echte run-output. Studentlicentie: geen betaald clientwerk.</p>
       </article>
-
       <article data-cat="bot">
         <div class="meta"><span class="tag">Bot</span><span class="status">intern</span></div>
         <h2>Hours Day Clock</h2>
         <p>Start, pauze, stop en werk in een jaarsheet. Verzin geen uren. Vraagt als iets ontbreekt.</p>
       </article>
-
       <article data-cat="bot">
         <div class="meta"><span class="tag">Bot</span><span class="status">intern</span></div>
         <h2>Verified Technical Support</h2>
         <p>Helpdesk-drafts + kennisbank. Alleen handleidingen en bench-resultaten — nooit gokken.</p>
       </article>
     </section>
-
     <footer>
-      Overzicht gegenereerd 17 sep 2026 · Nelen Consult BV ·
+      Overzicht 18 sep 2026 · Nelen Consult BV ·
+      <a href="https://github.com/RobinNelen/robin-grok-apps">bron</a> ·
       <a href="https://github.com/RobinNelen">github.com/RobinNelen</a>
     </footer>
   </div>
